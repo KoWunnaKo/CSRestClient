@@ -1,0 +1,15 @@
+﻿== How To Use
+
+- Instancie a classe Rest.Client <tt>Rest.Client client = new Rest.Client();</tt>
+- Defina a url do servidor <tt>client.server = "http://127.0.0.1:3000/api"</tt>
+- Use o método para trabalhar suas requisições: <tt>client.MakeRequest();</tt> passando um DataTable com as colunas pré-formatadas, em caso de POST ou PUT.
+
+== Verifique a ordem dos parâmetros:
+- <tt>DataTable dt</tt> Obrigatório
+- <tt>string resource = "posts"</tt> Recurso que deseja operar. Opcional, padrão "posts"
+- <tt>string method = "POST"</tt> Método do HTTP. Opcional, padrão POST"
+
+== License:
+- EN: You are free to use, modify, COLABORATE, or wathever you want to do. =)
+- PT-BR: Você é livre para usar, modificar, COLABORAR, ou o que quer que você queira. =)
+
