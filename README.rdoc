@@ -1,4 +1,6 @@
-﻿== How To Use
+﻿Open Source C# Rest Client
+
+== Modo de Usar
 
 - Instancie a classe Rest.Client <tt>Rest.Client client = new Rest.Client();</tt>
 - Defina a url do servidor <tt>client.server = "http://127.0.0.1:3000/api"</tt>
